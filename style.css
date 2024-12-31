@@ -251,10 +251,9 @@ body {
     position: relative;
 }
 
-#product1 .pro .image-p {
-    /* width: 15%; */
+#product1 .pro .image-p{
+    width: 15%;
     height: 450px;
-    background-image: url("Image/p.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 299px;
