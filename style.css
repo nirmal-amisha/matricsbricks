@@ -1,0 +1,752 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    background-color: #f06c00;
+    height: 40px;
+    text-align: center;
+}
+
+.container-fluid>p {
+    position: relative;
+    top: 5px;
+    text-transform: capitalize;
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: end; */
+    border-bottom: 2px solid #f06c00;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+}
+
+.list-icon a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* margin: 10px; */
+}
+
+.list-icon i {
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.company-name {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.company-name>.c {
+    margin-left: 20px;
+}
+
+
+.product-banner {
+    /* background-color: #f0f9ff;   */
+    height: 500px;
+    /* padding: 20px; */
+    width: 100%;
+    border-radius: 5px;
+    background-image: url("image/b-01.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+.aloe {
+    position: relative;
+    top: 100px;
+    left: 50px;
+    text-align: start;
+}
+
+.discount {
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.buy-now-btn {
+    font-size: 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.discount {
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 10px 15px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-panel {
+    /* background-color: #f0f9ff; */
+    padding: 15px;
+    border-radius: 10px;
+    height: 250px;
+    background-image: url("image/b-02.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.side-panel span {
+    color: #d40e0e;
+    text-decoration: underline;
+}
+
+.side-panel span:hover {
+    text-decoration: underline;
+}
+
+.side-panels {
+    /* background-color: #f0f9ff; */
+    padding: 15px;
+    border-radius: 10px;
+    height: 250px;
+    background-image: url("image/b-03.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.side-panels span {
+    color: #d40e0e;
+    text-decoration: underline;
+}
+
+.side-panels span:hover {
+    text-decoration: underline;
+}
+
+#four-card .pro1-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.delivery-content {
+    display: flex;
+    background-color: #f06c00;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+#four-card .delivery-content .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#four-card .delivery-content .des p {
+    font-size: 12px;
+}
+
+
+.orders {
+    border: 1px solid rgb(194, 195, 198);
+    padding: 20px;
+}
+
+.orders .orders-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.orders .orders-container .content1 {
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 25%;
+}
+
+.one {
+    height: 50px;
+    width: 50px;
+    background-color: palegoldenrod;
+    border-radius: 50px;
+}
+
+.one-text {
+    margin-left: 10px;
+    width: 60%;
+}
+
+.one h5 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+
+.covid {
+    background-image: url("image/imresizer-1734245016890.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* text-align: start; */
+    /* margin-top:20px; */
+    height: 200px;
+}
+
+.banner {
+    text-align: start;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#product1 .pro .pro-container .image-p {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#product1 .pro {
+    width: 15%;
+    min-width: 299px;
+    padding: 10px 12px;
+    border: 1px solid lavender;
+    /* border-radius: 25px; */
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro .image-p {
+    /* width: 15%; */
+    height: 450px;
+    background-image: url("Image/p.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 299px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.2s ease;
+    position: relative;
+    left: -15px;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img {
+    width: 60%;
+    height: 200px;
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.des {
+    align-items: center;
+
+}
+
+#product1 .pro .des h5 {
+    color: rgb(44, 101, 103);
+    font-size: 12px;
+    text-align: center;
+}
+
+#product1 .pro .des h6 {
+    padding-top: 7px;
+    color: #222;
+    text-align: center;
+
+}
+
+#product1 .pro .des .star {
+    font-size: 12px;
+    color: gold;
+    text-align: center;
+}
+
+.three-price {
+    display: flex;
+    justify-content: center;
+
+}
+
+#product1 .pro .des h4 {
+    padding-top: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    color: teal;
+    /* margin: 10px; */
+}
+
+#product1 .pro .des p {
+    /* padding-top: 7px; */
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(148, 149, 149);
+    /* text-align: center; */
+    text-decoration: line-through;
+}
+
+#product1 .pro .add {
+    font-weight: 500px;
+    color: rgb(245, 249, 245);
+    text-align: center;
+}
+
+.add1 {
+    text-align: center;
+}
+
+#product1 .pro #new {
+    position: relative;
+    left: -120px;
+    font-size: 10px;
+
+}
+
+#product1 .pro .per {
+    font-size: 10px;
+    height: 22px;
+    width: 40px;
+}
+
+.platform {
+    text-align: center;
+}
+
+.mellion {
+    /* width: 800px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #f06c00;
+    border-left: #f06c00;
+    border-right: #f06c00;
+    border-top: #f06c00;
+    position: relative;
+    /* left: 380px;  */
+}
+
+.form {
+    text-align: center;
+}
+
+.form>input {
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.form .btn {
+    background-color: #f06c00;
+    color: white;
+}
+
+.about-company .end {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list {
+    text-align: start;
+}
+
+.col-3>h5 {
+    font-weight: 700;
+}
+
+.list>a {
+    color: gray;
+}
+
+.list>a:hover {
+    color: gray;
+}
+
+
+
+@media(max-width:768px) {
+    .container-fluid {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .call {
+        width: 100%;
+        position: relative;
+        left: 270px;
+    }
+
+    .img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .list-icon {
+        width: 100%;
+        position: relative;
+        left: 200px;
+    }
+
+    .hair-oil {
+        width: 100%;
+        padding: 5px;
+        background-size: cover;
+    }
+
+    .product-banner {
+        width: 700px;
+    }
+
+    .side-panel {
+        height: 500px;
+        padding: 50px;
+    }
+
+    .side-panel h5 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .side-panel h2 {
+        font-weight: bold;
+        font-size: 40px;
+
+    }
+
+    .side-panel span {
+        color: #d40e0e;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+
+    .side-panels {
+        height: 500px;
+        padding: 50px;
+        margin-top: -100px;
+
+    }
+
+    .side-panels h5 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .side-panels h2 {
+        font-weight: bold;
+        font-size: 40px;
+
+    }
+
+    .side-panels span {
+        color: #d40e0e;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+
+    #four-card .pro1-container {
+        justify-content: center;
+    }
+
+    #four-card .delivery-content {
+        margin: 5px;
+    }
+
+    .orders .orders-container .content1 {
+        flex-wrap: wrap;
+        padding: 10px;
+        width: 40%;
+    }
+
+    .one-text {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .covid {
+        width: 100%;
+        background-size: contain;
+    }
+
+    .banner p {
+        font-size: 15px;
+
+    }
+
+    .banner h1 {
+        font-size: 20px;
+
+    }
+
+    .banner .btn {
+        font-size: 10px;
+    }
+
+
+    #product1 .pro-container {
+        justify-content: center;
+    }
+
+    #product1 .pro {
+        margin: 10px;
+    }
+
+
+    .about-company .col-3 img {
+        width: 180px;
+    }
+
+
+}
+
+@media(max-width:430px) {
+    .container-fluid {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .contact {
+        /* width: 100%; */
+        position: relative;
+        left: -150px;
+    }
+
+    .list-icon {
+        width: 100%;
+        position: relative;
+        left: 20px;
+    }
+
+    .company-name .c {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .company-name .c {
+        font-size: 10px;
+    }
+
+    .product-banner {
+        width: 100%;
+        height: 300px;
+    }
+
+    .aloe {
+        font-size: 10px;
+        position: relative;
+        top: 40px;
+        left: 20px;
+    }
+
+    .aloe p {
+        display: none;
+    }
+    .discount {
+        font-size: 10px;
+        height: 60px;
+        width: 60px;
+        position: relative;
+        top: 20px;
+    }
+
+    .side-panel {
+        padding: 15px;
+        border-radius: 10px;
+        height: 250px;
+        margin-top: -70px;
+    }
+
+    .side-panels {
+        padding: 15px;
+        border-radius: 10px;
+        height: 250px;
+        margin-top: -10px;
+    }
+
+    #four-card .delivery-content {
+        width: 100%;
+    }
+
+    .orders .orders-container .content1 {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .one-text {
+        margin-left: 10px;
+        width: 80%;
+    }
+
+    .covid {
+        width: 100%;
+        background-size: contain;
+        height: 100px;
+    }
+
+    .covid .banner {
+        font-size: 10px;
+        position: relative;
+        left: 20px;
+        top: -0px;
+    }
+
+    .banner p {
+        font-size: 10px;
+
+    }
+
+    .banner h1 {
+        font-size: 1rem;
+        margin-top: -10px;
+
+    }
+
+    .banner .btn {
+        font-size: 8px;
+    }
+
+    .last-footer {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width:320px) {
+    .container-fluid {
+        width: 100%;
+        font-size: 12px;
+
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .contact {
+        /* width: 100%; */
+        position: relative;
+        left: -200px;
+    }
+
+    .list-icon {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+
+    .list-icon a {
+        font-size: 10px;
+
+    }
+
+    .company-name .c {
+        width: 100px;
+    }
+
+    .product-banner {
+        width: 200px;
+    }
+
+    .company-name .c {
+        font-size: 12px;
+    }
+
+    .product-banner {
+        width: 100%;
+    }
+    .aloe {
+        font-size: 10px;
+        position: relative;
+        top: 40px;
+        left: 20px;
+    }
+    .aloe{
+        font-size: 20px;
+    }
+
+    .aloe p {
+        display: none;
+    }
+    .buy-now-btn{
+        font-size: 10px;
+    }
+    .discount {
+        font-size: 10px;
+        height: 60px;
+        width: 60px;
+        position: relative;
+        top: 20px;
+    }
+
+    #four-card .pro1-container {
+        justify-content: center;
+    }
+
+    #four-card .delivery-content {
+        width: 100%;
+    }
+
+    .des h4 {
+        font-size: 20px;
+    }
+
+    .des p {
+        font-size: 1px;
+    }
+
+    .des span {
+        font-size: 10px;
+    }
+
+    .delivery-content img {
+        width: 80px;
+    }
+
+}
